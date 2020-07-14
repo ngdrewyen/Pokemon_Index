@@ -1,4 +1,4 @@
-Pokemon_Index_API | Fun app displaying all hundreds of your favourite Pokemon
+Pokemon_Index_API | Fun app displaying hundreds of your favourite Pokemon
 
 <img src= "public/githubImg/mainPage.jpg">
 
