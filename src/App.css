@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.grid-container {
+  width: 70%;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.next {
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+.next:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 7.5px rgba(0, 0, 0, 0.6);
+}
+.prev {
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+.prev:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 7.5px rgba(0, 0, 0, 0.6);
+}
+
+.btn button {
+  border-style: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: #30a7d7;
+  color: #fff;
+  font-size: 1em;
+}
